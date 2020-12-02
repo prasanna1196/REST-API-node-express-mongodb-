@@ -12,7 +12,7 @@ app.use("/posts", postRoute);
 
 // Connect to db (Atlas)
 // Enter your mongodb Atlas user name and password in their respective field below
-const dbURI = "mongodb://localhost:27017/local";
+const dbURI = "mongodb://localhost:27017/testaroo";
 mongoose.connect(
   dbURI,
   {
